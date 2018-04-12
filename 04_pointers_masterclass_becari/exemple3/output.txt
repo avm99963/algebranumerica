@@ -1,0 +1,3 @@
+2 -0.2 10.5
+1.9 -0.19 -13.65
+Maxim en valor absolut per columes = 24.15

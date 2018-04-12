@@ -10,7 +10,7 @@ using namespace std;
 //                              h (altura de la gràfica)
 // Li preguntem a l'usuari quins paràmetres vol configurar:
 double M = 500,
-       N = 5000,
+       N = 1000,
        k = 1.2,
        h = 3.14;
 

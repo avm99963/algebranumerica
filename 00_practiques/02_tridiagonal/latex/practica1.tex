@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[catalan]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{geometry}
+\usepackage{listingsutf8}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{indentfirst}
+\geometry{top=25mm}
+
+\lstset{%language=
+                inputencoding=utf8/latin1,
+                basicstyle=\ttfamily,
+                keywordstyle=\color{blue}\ttfamily,
+                stringstyle=\color{red}\ttfamily,
+                commentstyle=\color{green}\ttfamily,
+                columns=fullflexible,
+  frame=single,
+  breaklines=true,
+  postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},                
+                morecomment=[l][\color{magenta}]{\#}
+}
+
+\author{Marta Llagostera i Adrià Vilanova\vspace{-2ex} }
+\title{Pràctica voluntària - Descomposició matriu tridiagonal i tridiagonal amb cantonades\vspace{-2ex}}
+\date{13 de març de 2018}
+
+\setlength{\parskip}{1em}
+\begin{document}
+\maketitle
+
+\section{Descomposició matriu tridiagonal}
+
+\textbf{Output de la terminal:}
+
+\lstinputlisting{../terminal_pdf_1.txt}
+
+\section{Descomposició matriu tridiagonal amb cantonades}
+
+\textbf{Output de la terminal:}
+
+\lstinputlisting{../terminal_pdf_2.txt}
+
+\pagebreak
+
+\section{Representació visual de les matrius dels dos exercicis}
+
+\subsection{Descomposició matriu tridiagonal}
+
+\lstinputlisting{../moreinfo_1.txt}
+
+\subsection{Descomposició matriu tridiagonal amb cantonades}
+
+\lstinputlisting{../moreinfo_2.txt}
+
+\end{document}

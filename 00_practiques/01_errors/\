@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+const int N = 30000000;
+
+int main() {
+    float suma;
+
+    for (int i = 1; i < N; ++i) {
+        suma += 1/(float)i;
+        if (i % 1000 == 0) cout << i << "\n";
+    }
+
+    cout << suma << "\n";
+}
