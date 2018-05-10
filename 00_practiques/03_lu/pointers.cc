@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 void print_vector(double* v, int n) {
@@ -97,3 +98,69 @@ double** copia_punter(double** a, const int &m, const int &n) {
   return r;
 }
 
+double** create_pointer(const int &n, const int &m) {
+  double** A;
+  A = (double**) calloc(n, sizeof(double*));
+  if (A == NULL) {
+    cerr << "Error: memoria insuficient.\n";
+    exit(1);
+  }
+
+  for (int i = 0; i < n; ++i) {
+    A[i] = (double*) calloc(m, sizeof(double));
+    if (A[i] == NULL) {
+      cerr << "Error: memoria insuficient.\n";
+      exit(1);
+    }
+    for (int j = 0; j < n; ++j) A[i][j] = 0;
+  }
+
+  return A;
+}
+
+double* copia_punter(double* v, const int &n) {
+  double* r;
+  r = (double*) calloc(n, sizeof(double));
+  if (r == NULL) {
+    cerr << "Error: memoria insuficient.\n";
+    exit(1);
+  }
+  
+  for (int i = 0; i < n; ++i) r[i] = v[i];
+
+  return r;
+}
+
+double norma_m1(double** m, const int &n) {
+  double max = -1;
+  for (int j = 0; j < n; ++j) {
+    double sum = 0;
+    for (int i = 0; i < n; ++i) sum += m[i][j];
+    if (sum > max) max = sum;
+  }
+  return max;
+}
+
+double norma_minf(double** m, const int &n) {
+  double max = -1;
+  for (int i = 0; i < n; ++i) {
+    double sum = 0;
+    for (int j = 0; j < n; ++j) sum += m[i][j];
+    if (sum > max) max = sum;
+  }
+  return max;
+}
+
+double norma_1(double* v, const int &n) {
+  double norma;
+  for (int i = 0; i < n; ++i) norma += abs(v[i]);
+  return norma;
+}
+
+double norma_inf(double* v, const int &n) {
+  double max = -1;
+  for (int i = 0; i < n; ++i) {
+    if (abs(v[i]) > max) max = abs(v[i]);
+  }
+  return max;
+}

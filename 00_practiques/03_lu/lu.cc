@@ -31,7 +31,7 @@ int lu(double **a, int n, int perm[], double tol) {
 
     if (fila != pas-1) {
       // Toca intercanviar files
-      cout << "Intercanviem files " << pas-1 << " i " << fila << "\n";
+      //cout << "Intercanviem files " << pas-1 << " i " << fila << "\n";
       sig *= -1; // Invertim el signe de la permutacio
       intercanvia(a, n, pas-1, fila);
       swap(perm[pas-1], perm[fila]);

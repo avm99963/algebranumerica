@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
   int n;
   file >> n;
 
-  cout << "Fitxer d'entrada: " << argv[1] << "\nDimensio: " << n << "\n\n";
+  //cout << "Fitxer d'entrada: " << argv[1] << "\nDimensio: " << n << "\n\n";
 
   // Inicialitzem la matriu A
   double** A;
@@ -97,14 +97,14 @@ int main(int argc, char *argv[]) {
 
   // Al'right, let's start with the LU party!!
   //cout << "Al'right, let's start with the LU party!!\n\n";
-  cout << "Comencem a calcular LU\n\n";
+  //cout << "Comencem a calcular LU\n\n";
 
   int p[n];
   double** Aprima = copia_punter(A, n, n);
   double** A_lu = copia_punter(A, n, n);
   int sig = lu(A_lu, n, p, TOL);
 
-  cout << "sig = " << sig << "\n\n";
+  //cout << "sig = " << sig << "\n\n";
 
   if (sig == 0) {
     cout << "La matriu no es regular, per tant terminem el programa amb codi de sortida 42.\n";
@@ -117,14 +117,14 @@ int main(int argc, char *argv[]) {
     cout << "\n";
   }
 
-  cout << "p: ";
-  print_vector(p, n);
+  //cout << "p: ";
+  //print_vector(p, n);
   
   double det = sig;
   for (int i = 0; i < n; ++i) {
     det *= A_lu[i][i];
   }
-  cout << "\nDeterminant: " << det << "\n";
+  //cout << "\nDeterminant: " << det << "\n";
 
   // Intercanviem files d'A per obtenir PA segons P
   bool* visited;
@@ -142,6 +142,9 @@ int main(int argc, char *argv[]) {
       ++i;
     }
   }
+
+  //cout << "Amb intercanvis:\n\n";
+  //print_matrix(Aprima, n);
 
   // Calculem LU
   double** mlu;
@@ -164,7 +167,6 @@ int main(int argc, char *argv[]) {
       mlu[i][j] = 0;
       for (int k = 0; k < n; ++k) {
         mlu[i][j] += ((i < k) ? 0 : ((i > k) ? A_lu[i][k] : 1))*((k <= j) ? A_lu[k][j] : 0); // Ningu sap per que, pero funciona :)
-        // En realitat si que sabem per que, pero queda be dir aixo amb aquest troc de codi incomprensible.
       }
     }
   }
@@ -182,7 +184,8 @@ int main(int argc, char *argv[]) {
   }
 
   // Veiem quines son les seves normes
-  cout << "\nNormes de PA-LU: norma_1 = " << norma_m1(residu, n) << ", norma_inf = " << norma_minf(residu, n) << "\n";
+  //cout << "\nNormes de PA-LU: norma_1 = " << norma_m1(residu, n) << ", norma_inf = " << norma_minf(residu, n) << "\n";
+  cout << norma_m1(residu, n) << " " << norma_minf(residu, n) << " ";
 
   double x[n];
 
@@ -196,14 +199,14 @@ int main(int argc, char *argv[]) {
     print_vector(x, n);
   }
 
-  cout << "\nS'ha guardat la solucio x al fitxer " << ARXIU_OUTPUT << "\n\n";
+  //cout << "\nS'ha guardat la solucio x al fitxer " << ARXIU_OUTPUT << "\n\n";
 
   // Escrivim solucio a l'arxiu solucioSL.dat
-  fstream output(ARXIU_OUTPUT, fstream::out | ios::trunc);
-  output.setf(ios::scientific);
-  output.precision(11);
+  //fstream output(ARXIU_OUTPUT, fstream::out | ios::trunc);
+  //output.setf(ios::scientific);
+  //output.precision(11);
 
-  for (int i = 0; i < n; ++i) output << i << " " << x[i] << "\n";
+  //for (int i = 0; i < n; ++i) output << i << " " << x[i] << "\n";
 
   // Calculem el residu r=Ax-b
   double residu_2[n];
@@ -221,8 +224,8 @@ int main(int argc, char *argv[]) {
     print_vector(residu_2, n);
   }
 
-  cout << "Normes de Ax-b: norma_1 = " << norma_1(residu_2, n) << ", norma_inf = " << norma_inf(residu_2, n) << "\n\n";
-
+  //cout << "Normes de Ax-b: norma_1 = " << norma_1(residu_2, n) << ", norma_inf = " << norma_inf(residu_2, n) << "\n\n";
+  cout << norma_1(residu_2, n) << " " << norma_inf(residu_2, n) << " ";
   // Calculem la inversa
   double** inv_A = create_pointer(n, n);
   inversa_nolu(A_lu, inv_A, n, p);
@@ -238,5 +241,6 @@ int main(int argc, char *argv[]) {
     Id[i][i] -= 1;
   }
 
-  cout << "Normes de A*A^(-1) - Id: norma_1 = " << norma_m1(Id, n) << ", norma_inf = " << norma_minf(Id, n) << "\n";
+  //cout << "Normes de A*A^(-1) - Id: norma_1 = " << norma_m1(Id, n) << ", norma_inf = " << norma_minf(Id, n) << "\n";
+  cout << norma_m1(Id, n) << " " << norma_minf(Id, n) << "\n";
 }
