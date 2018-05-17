@@ -1,0 +1,2757 @@
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+error: 'gs' undefined near line 29 column 14
+error: called from
+    solucionsDirecteR at line 29 column 13
+octave:20> solucionsDirecteR
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+error: relaxacio: operator *: nonconformant arguments (op1 is 36x1, op2 is 36x36)
+error: called from
+    relaxacio at line 9 column 4
+    solucionsDirecteR at line 29 column 13
+error: evaluating argument list element number 1
+error: called from
+    relaxacio at line 9 column 4
+    solucionsDirecteR at line 29 column 13
+octave:20> solucionsDirecteR
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 10059245.367262
+Radi espectral de B mes gran o igual que 1. Relaxacio no convergeix
+warning: relaxacio: some elements in list of return values are undefined
+warning: called from
+    relaxacio at line 16 column 3
+    solucionsDirecteR at line 31 column 13
+fout =  5
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 10059245.691351
+Radi espectral de B mes gran o igual que 1. Relaxacio no convergeix
+warning: relaxacio: some elements in list of return values are undefined
+warning: called from
+    relaxacio at line 16 column 3
+    solucionsDirecteR at line 31 column 13
+fout =  5
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 10059244.893284
+Radi espectral de B mes gran o igual que 1. Relaxacio no convergeix
+warning: relaxacio: some elements in list of return values are undefined
+warning: called from
+    relaxacio at line 16 column 3
+    solucionsDirecteR at line 31 column 13
+fout =  5
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.761639
+
+Estimacio error absolut a la solucio iterativa: 9.778020e-13
+
+Iteracions usades: 57 
+
+Solucio aproximada usant Relaxacio:
+  -1.33768061724467e-02
+   2.08899396568591e-03
+  -9.55642799356529e-03
+  -2.48058689509882e-02
+  -3.38233244066820e-03
+  -1.00573169838832e-02
+  -7.00287620976524e-03
+  -1.67998003742172e-02
+  -9.06212395418488e-03
+  -8.22092246895119e-03
+  -1.20719982209192e-02
+  -2.84609358132344e-01
+   5.86879857555363e-02
+   1.03916091038786e-02
+   1.12195590191229e-02
+  -3.32860331773827e-03
+  -1.57003979846075e-03
+   1.31009766992199e-02
+  -7.32285014581806e-03
+  -6.00839151499072e-03
+   4.64515737049667e-03
+   4.66370421004470e-03
+  -4.59076971173336e-03
+  -3.29977266826607e-03
+  -6.99687264950324e-03
+  -7.87636918662826e-04
+   8.01391173711652e-03
+  -5.79820150972217e-03
+   1.05141776971143e-02
+   9.45582232633542e-03
+  -5.93802712391007e-02
+   1.52987863815225e-03
+   7.15778987293824e-03
+  -2.30259307637658e-01
+   1.55314283901317e-02
+   2.43750503107559e-02
+fout =  5
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.761639
+
+Estimacio error absolut a la solucio iterativa: 9.778020e-13
+
+Iteracions usades: 57 
+
+Solucio aproximada usant Relaxacio:
+  -1.33768061724467e-02
+   2.08899396568591e-03
+  -9.55642799356529e-03
+  -2.48058689509882e-02
+  -3.38233244066820e-03
+  -1.00573169838832e-02
+  -7.00287620976524e-03
+  -1.67998003742172e-02
+  -9.06212395418488e-03
+  -8.22092246895119e-03
+  -1.20719982209192e-02
+  -2.84609358132344e-01
+   5.86879857555363e-02
+   1.03916091038786e-02
+   1.12195590191229e-02
+  -3.32860331773827e-03
+  -1.57003979846075e-03
+   1.31009766992199e-02
+  -7.32285014581806e-03
+  -6.00839151499072e-03
+   4.64515737049667e-03
+   4.66370421004470e-03
+  -4.59076971173336e-03
+  -3.29977266826607e-03
+  -6.99687264950324e-03
+  -7.87636918662826e-04
+   8.01391173711652e-03
+  -5.79820150972217e-03
+   1.05141776971143e-02
+   9.45582232633542e-03
+  -5.93802712391007e-02
+   1.52987863815225e-03
+   7.15778987293824e-03
+  -2.30259307637658e-01
+   1.55314283901317e-02
+   2.43750503107559e-02
+fout =  5
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.471583
+
+Estimacio error absolut a la solucio iterativa: 3.843679e-13
+
+Iteracions usades: 19 
+
+Solucio aproximada usant Relaxacio:
+  -1.33768061725160e-02
+   2.08899396613819e-03
+  -9.55642799368840e-03
+  -2.48058689508393e-02
+  -3.38233244061807e-03
+  -1.00573169837751e-02
+  -7.00287620974886e-03
+  -1.67998003744441e-02
+  -9.06212395409622e-03
+  -8.22092246921728e-03
+  -1.20719982207630e-02
+  -2.84609358132051e-01
+   5.86879857557000e-02
+   1.03916091040254e-02
+   1.12195590193356e-02
+  -3.32860331802837e-03
+  -1.57003979827445e-03
+   1.31009766995623e-02
+  -7.32285014591457e-03
+  -6.00839151461773e-03
+   4.64515737038652e-03
+   4.66370420982917e-03
+  -4.59076971134531e-03
+  -3.29977266812946e-03
+  -6.99687264972931e-03
+  -7.87636918791642e-04
+   8.01391173700344e-03
+  -5.79820150962383e-03
+   1.05141776970007e-02
+   9.45582232644757e-03
+  -5.93802712391413e-02
+   1.52987863834225e-03
+   7.15778987286899e-03
+  -2.30259307637726e-01
+   1.55314283898383e-02
+   2.43750503107029e-02
+fout =  5
+Ordre de la matriu:
+
+n =  3
+norm(A,2):
+
+norm2 =  10.9732138787443
+norm(A,1):
+
+norm1 =  12
+norm(|A|,inf):
+
+norm =  12
+Radi espectral de A, rho(A):
+
+rho =  10.5207972893961
+Determinant de A:
+
+ans =  48
+Solucio del sistema:
+
+x =
+
+  -0.749999999999999
+   2.250000000000000
+   2.250000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 8.895707
+Radi espectral de B mes gran o igual que 1. Relaxacio no convergeix
+warning: relaxacio: some elements in list of return values are undefined
+warning: called from
+    relaxacio at line 16 column 3
+    solucionsDirecteR at line 31 column 13
+fout =  5
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 1.425591
+Radi espectral de B mes gran o igual que 1. Relaxacio no convergeix
+warning: relaxacio: some elements in list of return values are undefined
+warning: called from
+    relaxacio at line 16 column 3
+    solucionsDirecteR at line 31 column 13
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 1.425591
+
+Estimacio error absolut a la solucio iterativa: 1.350031e-13
+
+Iteracions usades: 27 
+
+Solucio aproximada usant Relaxacio:
+   -4.20000000000002
+   15.00000000000011
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 1.425591
+Bw =
+
+  -0.300000000000000  -0.260000000000000
+   1.170000000000000   0.714000000000000
+
+
+Estimacio error absolut a la solucio iterativa: 1.350031e-13
+
+Iteracions usades: 27 
+
+Solucio aproximada usant Relaxacio:
+   -4.20000000000002
+   15.00000000000011
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 1.425591
+Bw =
+
+  -0.300000000000000  -0.260000000000000
+   1.170000000000000   0.714000000000000
+
+
+Estimacio error absolut a la solucio iterativa: 1.350031e-13
+
+Iteracions usades: 27 
+
+Solucio aproximada usant Relaxacio:
+   -4.20000000000002
+   15.00000000000011
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 1.425591
+Bw =
+
+  -0.300000000000000  -0.260000000000000
+   1.170000000000000   0.714000000000000
+
+
+Estimacio error absolut a la solucio iterativa: 1.350031e-13
+
+Iteracions usades: 27 
+
+Solucio aproximada usant Relaxacio:
+   -4.20000000000002
+   15.00000000000011
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 1.425591
+Bw =
+
+  -0.300000000000000  -0.260000000000000
+   1.170000000000000   0.714000000000000
+
+
+Estimacio error absolut a la solucio iterativa: 1.350031e-13
+
+Iteracions usades: 27 
+
+Solucio aproximada usant Relaxacio:
+   -4.20000000000002
+   15.00000000000011
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 1.425591
+Bw =
+
+  -0.300000000000000  -0.260000000000000
+   1.170000000000000   0.714000000000000
+
+P =
+
+   -7.692307692307692    0.000000000000000
+   15.000000000000000    3.846153846153846
+
+ans =
+
+  -0.300000000000000   0.260000000000000
+   1.170000000000001  -1.314000000000000
+
+
+Estimacio error absolut a la solucio iterativa: 1.350031e-13
+
+Iteracions usades: 27 
+
+Solucio aproximada usant Relaxacio:
+   -4.20000000000002
+   15.00000000000011
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.632456
+Bw =
+
+   0.000000000000000  -0.200000000000000
+   0.000000000000000   0.600000000000000
+
+P =
+
+  -10    0
+   15    5
+
+ans =
+
+   0.000000000000000   0.200000000000000
+   0.000000000000000  -0.600000000000000
+
+
+Estimacio error absolut a la solucio iterativa: 8.135714e-13
+
+Iteracions usades: 59 
+
+Solucio aproximada usant Relaxacio:
+   -4.19999999999959
+   14.99999999999878
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.632456
+Bw =
+
+   0.000000000000000  -0.200000000000000
+   0.000000000000000   0.600000000000000
+
+P =
+
+  -10    0
+   15    5
+
+ans =
+
+   0.000000000000000   0.200000000000000
+   0.000000000000000  -0.600000000000000
+
+
+Estimacio error absolut a la solucio iterativa: 8.135714e-13
+
+Iteracions usades: 59 
+
+Solucio aproximada usant Relaxacio:
+   -4.19999999999959
+   14.99999999999878
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.632456
+Bw =
+
+   0.000000000000000   0.200000000000000
+   0.000000000000000  -0.600000000000000
+
+P =
+
+  -10    0
+   15    5
+
+ans =
+
+   0.000000000000000   0.200000000000000
+   0.000000000000000  -0.600000000000000
+
+
+Estimacio error absolut a la solucio iterativa: 8.149037e-13
+
+Iteracions usades: 59 
+
+Solucio aproximada usant Relaxacio:
+  -0.450000000000102
+   3.750000000000306
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.632456
+
+Estimacio error absolut a la solucio iterativa: 8.149037e-13
+
+Iteracions usades: 59 
+
+Solucio aproximada usant Relaxacio:
+  -0.450000000000102
+   3.750000000000306
+fout =  7
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.474058
+
+Estimacio error absolut a la solucio iterativa: 2.297242e-13
+
+Iteracions usades: 17 
+
+Solucio aproximada usant Relaxacio:
+   0.00679590932739669
+  -0.00973963653417008
+   0.00523189201364217
+   0.02207286352342745
+  -0.00197055762123551
+   0.00592409640106772
+   0.00369348512508530
+   0.01325999423503090
+   0.00585385756512595
+   0.00676057708989691
+   0.01186849819857505
+  -0.28581781426754355
+   0.06713085917006745
+   0.00953658765927222
+   0.01669017765690239
+   0.01075460196929490
+  -0.00527917986064055
+   0.00670961499517050
+   0.00365913921696545
+   0.00111514570836104
+   0.01022077328960309
+  -0.00267063105510853
+   0.01021082392321468
+   0.00480446243963031
+   0.01045283529096185
+   0.01168745882738934
+   0.01664718048781866
+   0.00132891789644876
+   0.00626078033539538
+   0.00873160545076434
+  -0.06375527933575161
+   0.00341516130473465
+   0.01627918027449140
+  -0.23807925098083926
+   0.00683628265260396
+   0.01771627336513474
+fout =  7
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.474058
+
+Estimacio error absolut a la solucio iterativa: 2.297242e-13
+
+Iteracions usades: 17 
+
+Solucio aproximada usant Relaxacio:
+   0.00679590932739669
+  -0.00973963653417008
+   0.00523189201364217
+   0.02207286352342745
+  -0.00197055762123551
+   0.00592409640106772
+   0.00369348512508530
+   0.01325999423503090
+   0.00585385756512595
+   0.00676057708989691
+   0.01186849819857505
+  -0.28581781426754355
+   0.06713085917006745
+   0.00953658765927222
+   0.01669017765690239
+   0.01075460196929490
+  -0.00527917986064055
+   0.00670961499517050
+   0.00365913921696545
+   0.00111514570836104
+   0.01022077328960309
+  -0.00267063105510853
+   0.01021082392321468
+   0.00480446243963031
+   0.01045283529096185
+   0.01168745882738934
+   0.01664718048781866
+   0.00132891789644876
+   0.00626078033539538
+   0.00873160545076434
+  -0.06375527933575161
+   0.00341516130473465
+   0.01627918027449140
+  -0.23807925098083926
+   0.00683628265260396
+   0.01771627336513474
+fout =  7
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.522824
+
+Estimacio error absolut a la solucio iterativa: 6.137955e-13
+
+Iteracions usades: 19 
+
+Solucio aproximada usant Relaxacio:
+   0.00679590932739953
+  -0.00973963653415545
+   0.00523189201371951
+   0.02207286352348473
+  -0.00197055762116074
+   0.00592409640111613
+   0.00369348512517570
+   0.01325999423514656
+   0.00585385756522918
+   0.00676057708998376
+   0.01186849819868530
+  -0.28581781426744773
+   0.06713085917017753
+   0.00953658765935250
+   0.01669017765701895
+   0.01075460196938247
+  -0.00527917986056684
+   0.00670961499524250
+   0.00365913921704431
+   0.00111514570842465
+   0.01022077328964463
+  -0.00267063105506039
+   0.01021082392326306
+   0.00480446243968374
+   0.01045283529096039
+   0.01168745882739985
+   0.01664718048782043
+   0.00132891789644865
+   0.00626078033536425
+   0.00873160545073928
+  -0.06375527933577382
+   0.00341516130469858
+   0.01627918027445369
+  -0.23807925098088251
+   0.00683628265255712
+   0.01771627336508189
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 1.802943
+Radi espectral de B mes gran o igual que 1. Relaxacio no convergeix
+warning: relaxacio: some elements in list of return values are undefined
+warning: called from
+    relaxacio at line 16 column 3
+    solucionsDirecteR at line 31 column 13
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 1.802943
+Radi espectral de B mes gran o igual que 1. Relaxacio no convergeix
+warning: relaxacio: some elements in list of return values are undefined
+warning: called from
+    relaxacio at line 16 column 3
+    solucionsDirecteR at line 31 column 13
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.632456
+
+Estimacio error absolut a la solucio iterativa: 8.149037e-13
+
+Iteracions usades: 59 
+
+Solucio aproximada usant Relaxacio:
+  -0.450000000000102
+   3.750000000000306
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.921661
+
+Estimacio error absolut a la solucio iterativa: 9.916512e-13
+
+Iteracions usades: 334 
+
+Solucio aproximada usant Relaxacio:
+  -0.449999999999872
+   3.749999999999527
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 1.321809
+Radi espectral de B mes gran o igual que 1. Relaxacio no convergeix
+warning: relaxacio: some elements in list of return values are undefined
+warning: called from
+    relaxacio at line 16 column 3
+    solucionsDirecteR at line 31 column 13
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.513729
+
+Estimacio error absolut a la solucio iterativa: 2.655653e-13
+
+Iteracions usades: 23 
+
+Solucio aproximada usant Relaxacio:
+  -0.450000000000027
+   3.750000000000052
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.632456
+
+Estimacio error absolut a la solucio iterativa: 8.149037e-13
+
+Iteracions usades: 59 
+
+Solucio aproximada usant Relaxacio:
+  -0.450000000000102
+   3.750000000000306
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.632456
+
+Estimacio error absolut a la solucio iterativa: 8.149037e-13
+
+Iteracions usades: 59 
+
+Solucio aproximada usant Relaxacio:
+  -0.450000000000102
+   3.750000000000306
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.632456
+
+Estimacio error absolut a la solucio iterativa: 8.149037e-13
+
+Iteracions usades: 59 
+
+Solucio aproximada usant Relaxacio:
+  -0.450000000000102
+   3.750000000000306
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.632456
+
+Estimacio error absolut a la solucio iterativa: 8.149037e-13
+
+Iteracions usades: 59 
+
+Solucio aproximada usant Relaxacio:
+  -0.450000000000102
+   3.750000000000306
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.570028
+
+Estimacio error absolut a la solucio iterativa: 8.615331e-14
+
+Iteracions usades: 20 
+
+Solucio aproximada usant Relaxacio:
+  -0.449999999999977
+   3.749999999999954
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.830379
+
+Estimacio error absolut a la solucio iterativa: 6.594725e-13
+
+Iteracions usades: 32 
+
+Solucio aproximada usant Relaxacio:
+  -0.449999999999724
+   3.749999999999611
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.700004
+
+Estimacio error absolut a la solucio iterativa: 9.285905e-13
+
+Iteracions usades: 25 
+
+Solucio aproximada usant Relaxacio:
+  -0.450000000000076
+   3.749999999999829
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.570028
+
+Estimacio error absolut a la solucio iterativa: 8.615331e-14
+
+Iteracions usades: 20 
+
+Solucio aproximada usant Relaxacio:
+  -0.449999999999977
+   3.749999999999954
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.631885
+
+Estimacio error absolut a la solucio iterativa: 4.338752e-13
+
+Iteracions usades: 22 
+
+Solucio aproximada usant Relaxacio:
+  -0.450000000000112
+   3.750000000000193
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.605874
+
+Estimacio error absolut a la solucio iterativa: 3.625433e-13
+
+Iteracions usades: 21 
+
+Solucio aproximada usant Relaxacio:
+  -0.450000000000026
+   3.750000000000155
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.593413
+
+Estimacio error absolut a la solucio iterativa: 6.472045e-13
+
+Iteracions usades: 20 
+
+Solucio aproximada usant Relaxacio:
+  -0.450000000000076
+   3.750000000000296
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.570028
+
+Estimacio error absolut a la solucio iterativa: 8.615331e-14
+
+Iteracions usades: 20 
+
+Solucio aproximada usant Relaxacio:
+  -0.449999999999977
+   3.749999999999954
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.581432
+
+Estimacio error absolut a la solucio iterativa: 5.750955e-13
+
+Iteracions usades: 20 
+
+Solucio aproximada usant Relaxacio:
+  -0.449999999999951
+   3.750000000000007
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.575652
+
+Estimacio error absolut a la solucio iterativa: 3.281819e-13
+
+Iteracions usades: 20 
+
+Solucio aproximada usant Relaxacio:
+  -0.449999999999957
+   3.749999999999955
+fout =  7
+Ordre de la matriu:
+
+n =  2
+norm(A,2):
+
+norm2 =  18.2999781873467
+norm(A,1):
+
+norm1 =  25
+norm(|A|,inf):
+
+norm =  20
+Radi espectral de A, rho(A):
+
+rho =  11.7870878105034
+Determinant de A:
+
+ans = -80
+Solucio del sistema:
+
+x =
+
+  -0.450000000000000
+   3.750000000000000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.570028
+
+Estimacio error absolut a la solucio iterativa: 8.615331e-14
+
+Iteracions usades: 20 
+
+Solucio aproximada usant Relaxacio:
+  -0.449999999999977
+   3.749999999999954
+fout =  7
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.393871
+
+Estimacio error absolut a la solucio iterativa: 3.047874e-13
+
+Iteracions usades: 20 
+
+Solucio aproximada usant Relaxacio:
+   0.00679590932726632
+  -0.00973963653414498
+   0.00523189201353172
+   0.02207286352342549
+  -0.00197055762120151
+   0.00592409640095979
+   0.00369348512509303
+   0.01325999423493141
+   0.00585385756508355
+   0.00676057708980700
+   0.01186849819860327
+  -0.28581781426751501
+   0.06713085917005859
+   0.00953658765926219
+   0.01669017765691278
+   0.01075460196919765
+  -0.00527917986059146
+   0.00670961499526443
+   0.00365913921694482
+   0.00111514570841923
+   0.01022077328958082
+  -0.00267063105510542
+   0.01021082392328496
+   0.00480446243968315
+   0.01045283529094803
+   0.01168745882737068
+   0.01664718048786582
+   0.00132891789648197
+   0.00626078033539266
+   0.00873160545077472
+  -0.06375527933573612
+   0.00341516130477978
+   0.01627918027449069
+  -0.23807925098084279
+   0.00683628265257711
+   0.01771627336514591
+fout =  7
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.474058
+
+Estimacio error absolut a la solucio iterativa: 2.297242e-13
+
+Iteracions usades: 17 
+
+Solucio aproximada usant Relaxacio:
+   0.00679590932739669
+  -0.00973963653417008
+   0.00523189201364217
+   0.02207286352342745
+  -0.00197055762123551
+   0.00592409640106772
+   0.00369348512508530
+   0.01325999423503090
+   0.00585385756512595
+   0.00676057708989691
+   0.01186849819857505
+  -0.28581781426754355
+   0.06713085917006745
+   0.00953658765927222
+   0.01669017765690239
+   0.01075460196929490
+  -0.00527917986064055
+   0.00670961499517050
+   0.00365913921696545
+   0.00111514570836104
+   0.01022077328960309
+  -0.00267063105510853
+   0.01021082392321468
+   0.00480446243963031
+   0.01045283529096185
+   0.01168745882738934
+   0.01664718048781866
+   0.00132891789644876
+   0.00626078033539538
+   0.00873160545076434
+  -0.06375527933575161
+   0.00341516130473465
+   0.01627918027449140
+  -0.23807925098083926
+   0.00683628265260396
+   0.01771627336513474
+fout =  7
+Ordre de la matriu:
+
+n =  36
+norm(A,2):
+
+norm2 =  36.5613365599563
+norm(A,1):
+
+norm1 =  42.8927819396188
+norm(|A|,inf):
+
+norm =  44.1554076275041
+Radi espectral de A, rho(A):
+
+rho =  36.4725504643114
+Determinant de A:
+
+ans =    3.03208150108619e+45
+Solucio del sistema:
+
+x =
+
+   0.00679590932732826
+  -0.00973963653424754
+   0.00523189201358999
+   0.02207286352339445
+  -0.00197055762128593
+   0.00592409640101370
+   0.00369348512505815
+   0.01325999423498716
+   0.00585385756508347
+   0.00676057708986403
+   0.01186849819856374
+  -0.28581781426756331
+   0.06713085917006374
+   0.00953658765927451
+   0.01669017765689255
+   0.01075460196929836
+  -0.00527917986063425
+   0.00670961499517580
+   0.00365913921697084
+   0.00111514570837101
+   0.01022077328961816
+  -0.00267063105508809
+   0.01021082392323074
+   0.00480446243965029
+   0.01045283529098557
+   0.01168745882740597
+   0.01664718048784014
+   0.00132891789647117
+   0.00626078033541259
+   0.00873160545077684
+  -0.06375527933573170
+   0.00341516130474941
+   0.01627918027450637
+  -0.23807925098083252
+   0.00683628265261396
+   0.01771627336513953
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Solucio del sistema usant Relaxacio:
+
+tol =    1.00000000000000e-12
+maxit =  500
+Norma sub-2 de B_w: 0.393871
+
+Estimacio error absolut a la solucio iterativa: 3.047874e-13
+
+Iteracions usades: 20 
+
+Solucio aproximada usant Relaxacio:
+   0.00679590932726632
+  -0.00973963653414498
+   0.00523189201353172
+   0.02207286352342549
+  -0.00197055762120151
+   0.00592409640095979
+   0.00369348512509303
+   0.01325999423493141
+   0.00585385756508355
+   0.00676057708980700
+   0.01186849819860327
+  -0.28581781426751501
+   0.06713085917005859
+   0.00953658765926219
+   0.01669017765691278
+   0.01075460196919765
+  -0.00527917986059146
+   0.00670961499526443
+   0.00365913921694482
+   0.00111514570841923
+   0.01022077328958082
+  -0.00267063105510542
+   0.01021082392328496
+   0.00480446243968315
+   0.01045283529094803
+   0.01168745882737068
+   0.01664718048786582
+   0.00132891789648197
+   0.00626078033539266
+   0.00873160545077472
+  -0.06375527933573612
+   0.00341516130477978
+   0.01627918027449069
+  -0.23807925098084279
+   0.00683628265257711
+   0.01771627336514591
+fout =  7

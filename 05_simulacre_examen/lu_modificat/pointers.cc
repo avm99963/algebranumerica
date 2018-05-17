@@ -164,3 +164,11 @@ double norma_inf(double* v, const int &n) {
   }
   return max;
 }
+
+double condition_number_1(double** m, double** inv_m, const int &n) {
+  return norma_m1(m, n)*norma_m1(inv_m, n);
+}
+
+double condition_number_inf(double** m, double** inv_m, const int &n) {
+  return norma_minf(m, n)*norma_minf(inv_m, n);
+}
