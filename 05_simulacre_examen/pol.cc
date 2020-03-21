@@ -2,10 +2,10 @@
 #include <cmath>
 using namespace std;
 
-const double TOL = 1e-14;
+const double TOL = 1e-30;
 const int MAXITS = 500;
 
-double g(const int &x) {
+double g(const double &x) {
   return cbrt(1000 - x);
   //return (double)(2000*x)/pow(x*x + 1, 2);
 }
